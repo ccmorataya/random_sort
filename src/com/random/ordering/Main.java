@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         System.out.println(bubble());
     }
-    public static StringBuilder bubble(){
+    private static StringBuilder bubble(){
         int aux;
         StringBuilder result = new StringBuilder();
         int[] array = {55,86,48,16,82};
@@ -19,8 +19,8 @@ public class Main {
                 }
             }
         }
-        for (int i = 0; i < array.length; i++){
-            result.append(array[i]);
+        for (int arrayInit = 0; arrayInit < array.length; arrayInit++){
+            result.append(array[arrayInit]);
             result.append(" ");
         }
         return result;
