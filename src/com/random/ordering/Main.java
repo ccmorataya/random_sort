@@ -24,6 +24,7 @@ public class Main {
         return array;
     }
 
+    //QuickSort algorithm
     private static int[] quickSort(int[] array, int first, int last){
         int initial = first;
         int endPoint = last;
