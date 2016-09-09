@@ -9,6 +9,7 @@ public class Main {
         optionSelect();
     }
 
+    //Bubble sort algorithm
     private static int[] bubble(int [] array){
         int aux;
         for (int i = 1; i < array.length; i++){
