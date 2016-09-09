@@ -71,6 +71,7 @@ public class Main {
         return result;
     }
 
+    //Fill an integer array with random numbers
     private static int[] fillIntArray(int[] numbers){
         for (int i = 0; i < numbers.length; i++){
             numbers[i] = (int) (Math.random()*20)+1;
