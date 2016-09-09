@@ -89,6 +89,7 @@ public class Main {
         System.out.println("\t2. Ordenamiento Quick Sort.\n");
     }
 
+    //Select an option and execute the sort method bubble or quick
     private static void optionSelect(){
         Scanner input;
         input = new Scanner(System.in);
