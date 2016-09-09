@@ -61,6 +61,7 @@ public class Main {
         return array;
     }
 
+    //Print an array of numbers as a StringBuilder type
     private static StringBuilder printArray(int [] array){
         StringBuilder result = new StringBuilder();
         for (int arrayInit = 0; arrayInit < array.length; arrayInit++){
