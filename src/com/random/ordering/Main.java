@@ -79,6 +79,7 @@ public class Main {
         return numbers;
     }
 
+    //Print the main menu in screen
     private static void menu(){
         System.out.println("=================================================================");
         System.out.println("ALGORITMOS DE ORDENAMIENTO DE UN ARRAY DE DIEZ NÚMEROS ALEATORIOS");
